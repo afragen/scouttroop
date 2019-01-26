@@ -29,11 +29,11 @@ function scout_troop_setup() {
 	// Switches default core markup for search form, comment form, and comments
 	// to output valid HTML5.
 	add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list') );
-	
+
 	/*Allow featured images*/
-	add_theme_support( 'post-thumbnails' ); 
+	add_theme_support( 'post-thumbnails' );
 	add_image_size ('front-image', 660, 408);
-	
+
 	// Register menus
 	register_nav_menus(
 		array(
@@ -100,6 +100,6 @@ function exclude_widget_categories($args){
 	$args["exclude"] = $exclude;
 	return $args;
 }
-add_filter("widget_categories_args","exclude_widget_categories");
+//add_filter("widget_categories_args","exclude_widget_categories");
 
 ?>
