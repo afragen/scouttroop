@@ -6,8 +6,11 @@
 			<?php if ( have_posts() ) : ?>
 				<h1>Search Results for <?php echo get_search_query(); ?></h1>
 
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+				<?php /* The loop */ ?>
+				<?php
+				while ( have_posts() ) :
+					the_post();
+					?>
 				<h2 class="entry-title">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" rel="bookmark">
 						<?php the_title(); ?>

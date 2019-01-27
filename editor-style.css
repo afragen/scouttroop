@@ -1,8 +1,8 @@
-body#tinymce.wp-editor { 
-  font-size: 85%; 
+body#tinymce.wp-editor {
+  font-size: 85%;
 	line-height: 160%;
 	font-family: Helvetica, Arial, sans-serif;
-	max-width: 653px;    
+	max-width: 653px;
   color: #252525;
 }
 
@@ -65,23 +65,23 @@ strong {
 /* ------------------------------------------------------
    Images
 	 ------------------------------------------------------*/
-	 
+
 #footer-prepared {
 	float:right;
-	max-width:30%;	
-} 	
+	max-width:30%;
+}
 
 img.alignright {
 	float: right;
 	margin-left: 10px;
 	margin-bottom: 10px;
-}  	
+}
 
 img.alignleft {
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
-} 
+}
 
 img.aligncenter {
 	display:block;
@@ -97,7 +97,7 @@ img {
 
 
 .alignnone {
-    margin: 5px 20px 20px 0;
+	margin: 5px 20px 20px 0;
 }
 
 .aligncenter, div.aligncenter {

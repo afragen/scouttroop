@@ -11,15 +11,18 @@ Template Name: Full Width Page
 				<?php if ( have_posts() ) : ?>
 
 					<?php /* The loop */ ?>
-					<?php while ( have_posts() ) : the_post(); ?>
+					<?php
+					while ( have_posts() ) :
+						the_post();
+						?>
 
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<h1 class="entry-title"><?php the_title(); ?></h1>
 
-			    <?php
-			        // The content
-			        the_content();
-			    ?>
+						<?php
+						// The content
+						the_content();
+						?>
 						</article>
 					<?php endwhile; ?>
 
@@ -31,6 +34,6 @@ Template Name: Full Width Page
 
 			</section>		
 		</div> <!-- End content-wide -->
- 	</div> <!-- End page-content -->
+	 </div> <!-- End page-content -->
 
 	<?php get_footer(); ?>

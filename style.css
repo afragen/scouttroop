@@ -32,35 +32,35 @@ table {border-collapse:collapse;border-spacing:0;}
 /* ------------------------------------------------------
    Loading the fonts locally so we can avoid the ugly
 	 font rendering in Chrome.
-	 ------------------------------------------------------*/ 
+	 ------------------------------------------------------*/
 @font-face {
-    font-family: 'marcellusregular';
-    src: url('./fonts/marcellus-regular-webfont.eot');
-    src: url('./fonts/marcellus-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('./fonts/marcellus-regular-webfont.woff') format('woff'),
-         url('./fonts/marcellus-regular-webfont.ttf') format('truetype'),
-         url('./fonts/marcellus-regular-webfont.svg#marcellusregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'marcellusregular';
+	src: url('./fonts/marcellus-regular-webfont.eot');
+	src: url('./fonts/marcellus-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('./fonts/marcellus-regular-webfont.woff') format('woff'),
+		 url('./fonts/marcellus-regular-webfont.ttf') format('truetype'),
+		 url('./fonts/marcellus-regular-webfont.svg#marcellusregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 /* the fix ! simply ADD this block BELOW the above block */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-    @font-face {
-        font-family: 'marcellusregular';
-            src: url('./fonts/marcellus-regular-webfont.svg#marcellusregular') format('svg');
-    }
+	@font-face {
+		font-family: 'marcellusregular';
+			src: url('./fonts/marcellus-regular-webfont.svg#marcellusregular') format('svg');
+	}
 }
 
 /* ------------------------------------------------------
    Main Page Divisions
 	 ------------------------------------------------------*/
-body {  
-	background-color: #fff; 
-  font-size: 85%; 
+body {
+	background-color: #fff;
+  font-size: 85%;
 	line-height: 160%;
 	font-family: Helvetica, Arial, sans-serif;
-	width: 100%;    
+	width: 100%;
   color: #252525;
 }
 
@@ -89,10 +89,10 @@ header#page-header {
 }
 #site-name a, #site-name a:visited {
 	text-decoration: none;
-	color: #CE1126;	
+	color: #CE1126;
 }
 #site-name a:hover {
-	color: #CE1126;	
+	color: #CE1126;
 }
 #fleurdelis {
 	float:left;
@@ -105,9 +105,9 @@ header#page-header {
 	width: 33%;
 	float: right;
 	text-align: right;
-	color: #005A9C;	
+	color: #005A9C;
 	padding-right:5px;
-} 
+}
 
 /* -------------------- Content Wrapper --------------------*/
 #wrapper {
@@ -118,7 +118,7 @@ header#page-header {
 	background: #fff;
 }
 .content-third {
-	width: 32.323%; 
+	width: 32.323%;
 	margin-left: 1.515%;
 	float:left;
 	overflow-x:hidden;
@@ -178,10 +178,10 @@ div.footer-third {
 	width:33%;
 }
 div.footer-third .widget-container {
-	padding-bottom: 10px;	
+	padding-bottom: 10px;
 }
 div.footer-third .widget-container:last-child {
-	padding-bottom: 0px;	
+	padding-bottom: 0px;
 }
 div.footer-third ul li {
 	list-style-type: square;
@@ -250,12 +250,12 @@ footer form.search-form {
 	height: auto;
 }
 #front-bottom { /*The bottom must clear the top content. */
-	width: 100%; 
-	clear:both; 
+	width: 100%;
+	clear:both;
 	padding-top: 15px;
 	overflow-y:auto;
 }
-	 
+
 /* ------------------------------------------------------
    Typography
 	 ------------------------------------------------------*/
@@ -310,15 +310,15 @@ h6 {
 #wrapper img {
 	height:auto;
 }
-footer .footer-third h1, footer .footer-third h2, footer .footer-third h3, 
-footer .footer-third h3, footer .footer-third h4, footer .footer-third h6, 
+footer .footer-third h1, footer .footer-third h2, footer .footer-third h3,
+footer .footer-third h3, footer .footer-third h4, footer .footer-third h6,
 footer .footer-third a, footer .footer-third a:visited, footer .footer-third ul {
-	color: #fff !important;	
+	color: #fff !important;
 }
 
 /* ------------------ Required by WordPress ----------------*/
 .alignnone {
-    margin: 5px 20px 20px 0;
+	margin: 5px 20px 20px 0;
 }
 div.aligncenter {
 	text-align:center;
@@ -340,12 +340,12 @@ div.aligncenter {
 .bypostauthor {
 	font-weight:bold;
 }
-.wp-caption.alignright, 
+.wp-caption.alignright,
 figure.alignright  {
 	margin-left:10px;
 	max-width:50%;
 }
-.wp-caption.alignleft, 
+.wp-caption.alignleft,
 figure.alignleft {
 	margin-right:10px;
 	max-width:50%;
@@ -354,7 +354,7 @@ div.aligncenter img {
 	max-width:100%;
 	height:auto;
 }
-.wp-caption img, 
+.wp-caption img,
 figure img {
 	width:100%;
 	max-width:100%;
@@ -363,7 +363,7 @@ figure img {
 	padding:0;
 	margin:0;
 }
-p.wp-caption-text, 
+p.wp-caption-text,
 figure {
 	width:98%;
 	padding:0 1% 10px 1%;
@@ -401,8 +401,8 @@ table {
 	margin: 10px 0 17px 0;
 	border-collapse:collapse;
 }
-table, 
-td, 
+table,
+td,
 th {
 	border: 1px solid #005A9C;
 }
@@ -410,7 +410,7 @@ th {
 	color: #fff;
 	background-color: #005A9C;
 }
-td, 
+td,
 th {
 	padding: 5px;
 }
@@ -502,18 +502,18 @@ hr {
 	 ------------------------------------------------------*/
 #footer-prepared {
 	float:right;
-	max-width:100%;	
-} 	
+	max-width:100%;
+}
 img.alignright {
 	float: right;
 	margin-left: 10px;
 	margin-bottom: 10px;
-}  	
+}
 img.alignleft {
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
-} 
+}
 img.aligncenter {
 	display:block;
 	margin-left:auto;
@@ -522,30 +522,30 @@ img.aligncenter {
 img {
 	max-width: 100%;
 }
-	 
+
 /* ------------------------------------------------------
    Links
-	 ------------------------------------------------------*/	 
-#wrapper a, 
+	 ------------------------------------------------------*/
+#wrapper a,
 #wrapper a:visited {
 	color: #005A9C;
 	text-decoration: underline;
-}	 
-#wrapper a:hover, 
+}
+#wrapper a:hover,
 #wrapper a:active {
 	color: #CE1126;
-} 
-#wrapper footer a, 
+}
+#wrapper footer a,
 #wrapper footer a:visited {
 	text-decoration: none;
 	color: #efefef;
-}	 
-#wrapper footer a:hover, 
+}
+#wrapper footer a:hover,
 #wrapper footer a:active {
 	text-decoration: underline;
 	color: #efefef;
 }
-#wrapper div#credit a, #wrapper div#credit-left a, 
+#wrapper div#credit a, #wrapper div#credit-left a,
 #wrapper div#credit a:visited, #wrapper div#credit-left a:visited {
 	color: #aaa;
 	text-decoration: none;
@@ -560,11 +560,11 @@ img {
 	color: #CE1126;
 	text-decoration: underline;
 }
- 
+
 /* ------------------------------------------------------
    Media Queries
 	 ------------------------------------------------------*/
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 900px) {
 	.mobile-only {
 		display:block;
 	}
@@ -582,11 +582,11 @@ img {
 	}
 	#brand {
 		width:40%;
-	}	
+	}
 	#charter-box {
 		font-size: 90%;
 		width: 45%
-	}	
+	}
 	#wrapper {
 		width: 100%;
 	}
@@ -608,17 +608,17 @@ img {
 	#front-image-bottom {
 		display:block;
 	}
-} 
+}
 
 /* fixes and issue with flexnav at unusual screen widths */
-@media only screen and (max-width : 784px) and (min-width : 767px) { 
+@media only screen and (max-width : 784px) and (min-width : 767px) {
 	.flexnav > li {
 		max-width: 14.25% !important;
-	}  
+	}
 }
-  
+
 /* smaller than ipad in portrait */
-@media only screen and (max-width : 767px)  { 
+@media only screen and (max-width : 767px)  {
 	#site-name{
 		line-height: 100px;
 		vertical-align: middle;
@@ -626,28 +626,28 @@ img {
 	}
 	#site-name a, #site-name a:visited {
 	text-decoration: none;
-	color: #005A9C;	
+	color: #005A9C;
 	}
 	#site-name a:hover {
-		color: #005A9C;	
+		color: #005A9C;
 	}
 	#fleurdelis, #brand, #logo {
 		display: none;
-	} 
+	}
 	#mobile-logo {
 		display: block;
 		float:left;
-	}	
+	}
 	#wrapper {
 		padding: 0 0 10px 0;
 		font-size: 130%;
-	} 	
+	}
 	#front-image-bottom {
 		display:none;
 	}
 	#charter-box {
 		display: none;
-	}	
+	}
 	header#page-header {
 		height: 55px;
 	}
@@ -666,7 +666,7 @@ img {
 		min-width: 100%;
 		margin-bottom: 10px;
 	}
-	#content-full, aside, #content-wide, #front-first, .content-third:last-child, .content-third:first-child, 
+	#content-full, aside, #content-wide, #front-first, .content-third:last-child, .content-third:first-child,
 	.content-third:nth-child(2)  {
 		width: 90%;
 		padding:0;
@@ -679,12 +679,12 @@ img {
 		padding-bottom: 4px;
 		margin-bottom: 15px;
 	}
-	#front-bottom { 
+	#front-bottom {
 		width: 100%;
 		padding:0;
 		margin:0;
 	}
-	h1, 
+	h1,
 	h2 {
 		font-size: 140%;
 	}
@@ -730,14 +730,14 @@ img {
 		margin:0 auto 10px auto;
 		width: 80%;
 		max-width:80%;
-	} 	 
+	}
 	footer div div div li {
 		list-style-type:none;
 		line-height: 125%;
 		width:100%;
 		clear:both;
 	}
-} 
+}
 
 /* Flexnav Base Styles */
 .flexnav {
@@ -749,10 +749,10 @@ img {
   overflow: hidden;
   margin: 0 auto;
   width: 100%;
-  max-height: 0; 
+  max-height: 0;
 }
 .flexnav.opacity {
-	opacity: 0; 
+	opacity: 0;
 }
 .flexnav.flexnav-show {
   max-height: 2000px;
@@ -760,18 +760,18 @@ img {
   -webkit-transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -ms-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out; 
+  transition: all .5s ease-in-out;
 }
 .flexnav.one-page {
   position: fixed;
   top: 50px;
   right: 5%;
-  max-width: 200px; 
+  max-width: 200px;
 }
 .flexnav li {
   font-size: 100%;
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 .flexnav li a {
   position: relative;
@@ -781,7 +781,7 @@ img {
   overflow: hidden;
   color: #ffffff;
   background: #005A9C;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15); 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 	text-decoration: none;
 }
 .flexnav li a:hover {
@@ -789,26 +789,26 @@ img {
 }
 .flexnav li ul {
 	position:relative;
-  width: 100%; 
+  width: 100%;
 	z-index:110;
 }
 .flexnav li ul li {
 	font-size: 100%;
 	position: relative;
-	overflow: hidden; 
+	overflow: hidden;
 }
 .flexnav li ul.flexnav-show li {
-  overflow: visible; 
+  overflow: visible;
 }
 .flexnav li ul li a {
   display: block;
-  background: #0065AD; 
+  background: #0065AD;
 }
 .flexnav ul li ul li a {
-  background: #0071C2; 
+  background: #0071C2;
 }
 .flexnav ul li ul li ul li a {
-  background: #007DD6; 
+  background: #007DD6;
 }
 .flexnav .touch-button {
   position: absolute;
@@ -820,16 +820,16 @@ img {
   display: inline-block;
   background: #acaca1;
   background: rgba(0, 0, 0, 0.05);
-  text-align: center; 
+  text-align: center;
 }
 .flexnav .touch-button:hover {
-	cursor: pointer; 
+	cursor: pointer;
 }
 .flexnav .touch-button .navicon {
 	position: relative;
 	top: 1.4em;
 	font-size: 12px;
-	color: #c0Cccd; 
+	color: #c0Cccd;
 }
 .menu-button {
 	position: relative;
@@ -838,13 +838,13 @@ img {
 	background: #003F87;
 	color: #ffffff;
 	cursor: pointer;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2); 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .menu-button.one-page {
 	position: fixed;
 	top: 0;
 	right: 5%;
-	padding-right: 45px; 
+	padding-right: 45px;
 }
 .menu-button .touch-button {
 	background: transparent;
@@ -855,13 +855,13 @@ img {
 	width: 50px;
 	height: 50px;
 	display: inline-block;
-	text-align: center; 
+	text-align: center;
 }
 .menu-button .touch-button .navicon {
 	font-size: 16px;
 	position: relative;
 	top: 1em;
-	color: #ccc; 
+	color: #ccc;
 }
 
 @media all and (min-width: 767px) {
@@ -879,18 +879,18 @@ img {
 		z-index:1000;
 	}
 	body.one-page {
-		padding-top: 70px; 
+		padding-top: 70px;
 	}
 	.flexnav {
-		overflow: visible; 
+		overflow: visible;
 	}
 	.flexnav.opacity {
-		opacity: 1; 
+		opacity: 1;
 	}
 	.flexnav.one-page {
 		top: 0;
 	  right: auto;
-	  max-width: 1080px; 
+	  max-width: 1080px;
 	}
 	.flexnav li {
 		position: relative;
@@ -907,9 +907,9 @@ img {
 	}
 	.flexnav li a {
 		border-left: 1px solid #0065AD;
-		border-bottom: none; 
+		border-bottom: none;
 		overflow: visible;
-  	padding: .75em 0 .77em 0;
+	padding: .75em 0 .77em 0;
 	}
 	.flexnav > li:last-child > a, .flexnav li li a {
 		border-right: 1px solid #0065AD;
@@ -923,39 +923,39 @@ img {
 	.flexnav li > ul {
 		position: absolute;
 		top: auto;
-		left: 0; 
+		left: 0;
 		box-shadow: 1px 1px 2px 0px #444;
 	}
 	.flexnav li > ul li {
-		width: 100%; 
+		width: 100%;
 	}
 	.flexnav li ul li > ul {
 		margin-left: 100%;
-		top: 0; 
+		top: 0;
 	}
 	.flexnav li ul li a {
-	    border-bottom: none; 
+		border-bottom: none;
 			border-right:0;
 			border-left:0;
 	}
 	.flexnav li ul.open {
-	    display: block;
-	    opacity: 1;
-	    visibility: visible;
+		display: block;
+		opacity: 1;
+		visibility: visible;
 			position:relative;
-	    z-index: 110; 
+		z-index: 110;
 	}
 	.flexnav li ul.open li {
-	      overflow: visible;
-	      max-height: 100px; 
+		  overflow: visible;
+		  max-height: 100px;
 	}
 	.flexnav li ul.open ul.open {
-	      margin-left: 100%;
-	      top: 0;  
+		  margin-left: 100%;
+		  top: 0;
 	}
 	.menu-button {
-	  display: none; 
-	}  
+	  display: none;
+	}
 	.flexnav .touch-button {
 	  background: rgba(0, 0, 0, 0.00);
 		width:30px;
@@ -1006,7 +1006,7 @@ img {
 .oldie.ie7 .flexnav li {width: 19.9%; }
 
 /* WordPress Pagination Links */
-div.nav-next, 
+div.nav-next,
 div.nav-previous {
 	width: 35%;
 	text-align:center;
@@ -1018,9 +1018,9 @@ div.nav-previous {
 	float:left;
 	clear:both;
 }
-div.nav-next a, 
-div.nav-previous a, 
-div.nav-next a:visited, 
+div.nav-next a,
+div.nav-previous a,
+div.nav-next a:visited,
 div.nav-previous a:visited {
 	color: #fff !important;
 	text-decoration:none !important;
@@ -1036,7 +1036,7 @@ div.nav-next a::after {
 div.nav-previous a::before {
 	content: "\00ab\00a0";
 }
-div.nav-next a:hover, 
+div.nav-next a:hover,
 div.nav-previous a:hover {
 	background-color:#CE1126;
 	color: #fff;
@@ -1050,7 +1050,7 @@ ul.gce-list, ul.gce-list ul {
 }
 
 ul.gce-list li ul li div:nth-child(5), ul.gce-list li ul li div:nth-child(6){
- 	display:none !important;
+	display:none !important;
 }
 
 ul.gce-list li div:nth-child(4) {
