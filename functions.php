@@ -6,8 +6,8 @@ if ( ! isset( $content_width ) ) {
 }
 
 // WP Updates for serving updates to the theme.
-require_once('wp-updates-theme.php');
-new WPUpdatesThemeUpdater_723( 'http://wp-updates.com/api/2/theme', basename( get_template_directory() ) );
+// require_once('wp-updates-theme.php');
+// new WPUpdatesThemeUpdater_723( 'http://wp-updates.com/api/2/theme', basename( get_template_directory() ) );
 // Functions for the Scout Troop Theme
 function scout_troop_setup() {
 	// Adds JavaScript to pages with the comment form to support sites with
