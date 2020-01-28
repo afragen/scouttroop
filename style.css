@@ -772,6 +772,7 @@ img {
   font-size: 100%;
   position: relative;
   overflow: hidden;
+  width: 20%;
 }
 .flexnav li a {
   position: relative;
